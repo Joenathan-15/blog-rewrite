@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProjectController;
+use App\Livewire\User\Dashboard;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,7 +24,7 @@ Route::middleware('guest')->group(function () {
     Route::post('login', [AuthController::class, 'login']);
 
     Route::prefix("/")->group(function () {
-        Route::get('/', [DashboardController::class, 'guest_index'])->name('dashboard');
+        Route::get('/', Dashboard::class )->name('dashboard');
     });
 });
 
