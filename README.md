@@ -5,6 +5,7 @@
 ## This Project require
 1. <a href="https://www.php.net/">PHP</a>
 2. <a href="https://www.mysql.com/">Mysql</a>
+3. <a href="https://laravel.com">Laravel</a>
 
 ---
 ## Project depedency
