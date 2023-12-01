@@ -1,4 +1,4 @@
-# About This Porject
+# About This Project
 #### --Still under mantenance--
 #### This Github repository Has been hosted in <a href="https://blog.joenathan.site/">Here</a>
 
